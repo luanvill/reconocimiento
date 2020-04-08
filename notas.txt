@@ -1,0 +1,15 @@
+distancia
+frames por segundo bajar
+disfrazar cara 
+resolucion
+luminosidad
+
+Raspberry Pi 3
+
+06/04
+Contraluz
+Oscuridad
+Linterna enfocado a cara en oscuridad
+Distancia cerca
+
+Como incorporar en webRTC?
