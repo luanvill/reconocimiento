@@ -13,3 +13,29 @@ Linterna enfocado a cara en oscuridad
 Distancia cerca
 
 Como incorporar en webRTC?
+
+Servomotores?
+Server.js encapsula llamadas de funciones con comandos como f1, f2, w, etc. Para realizar ciertas acciones a
+eventos seleccionados con keypress.
+
+MainOperator.js
+Metodo maybeStart contiene la inicializacion de las conexiones.
+Metodo createPeerConection inicia conexion rtc
+Metodo createDataChannel crea el canal o medio para la conexion.
+Socket.io es una libreria para comunicacion bidireccional basada en eventos, es reactiva.
+Metodo handleRemoteStreamAdded agrega un stream a un objeto html de la pagina.
+event.stream recibe datos del servidor?
+Metodo handleRemoteStreamRemoved solo presenta mensaje.
+sdp?, CN? Sonido.
+getData para hacer peticiones.
+variable sendChannel al hacer .send(datos) envia datos a rtc.
+MainOperator.js tambien tiene metodos que define emociones con el metodo general setEmotionValues que le
+pasas un diccionario
+
+13/04
+User Github: dpailla
+Poner el punto medio
+Chekear grado de inclinacion
+
+hog modo dificil
+mascarilla probar Cnn prioridad, hog a ver que tal.
