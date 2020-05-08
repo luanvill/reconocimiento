@@ -20,9 +20,12 @@ ap.add_argument("-o", "--output", type=str,
 	help="path to output video")
 ap.add_argument("-y", "--display", type=int, default=1,
 	help="whether or not to display output frame to screen")
-ap.add_argument("-d", "--detection-method", type=str, default="cnn",
+ap.add_argument("-d", "--detection-method", type=str, default="hog",
 	help="face detection model to use: either `hog` or `cnn`")
 args = vars(ap.parse_args())
+
+# archivo de salida de punto medio
+coordenadas = open("coordenadas.txt","w")
 
 # load the known faces and embeddings
 print("[INFO] loading encodings...")
@@ -56,6 +59,8 @@ while True:
 		model=args["detection_method"])
 	encodings = face_recognition.face_encodings(rgb, boxes)
 	names = []
+	rostros = "Cantidad de rostros detectados en este frame: " + str(len(boxes)) + "\n"
+	coordenadas.write(rostros)
 
 	# loop over the facial embeddings
 	for encoding in encodings:
@@ -79,6 +84,7 @@ while True:
 				name = data["names"][i]
 				counts[name] = counts.get(name, 0) + 1
 
+
 			# determine the recognized face with the largest number
 			# of votes (note: in the event of an unlikely tie Python
 			# will select first entry in the dictionary)
@@ -98,6 +104,17 @@ while True:
 		# draw the predicted face name on the image
 		cv2.rectangle(frame, (left, top), (right, bottom),
 			(0, 255, 0), 2)
+
+		#Punto Medio
+		xMedio = int(left+(abs((left-right)/2)))
+		yMedio = int(top+(abs((top-bottom)/2)))
+		print(xMedio,",",yMedio)
+		cv2.line(frame, (xMedio-1,yMedio), (xMedio+1,yMedio), (0, 255, 0), 2)
+		cv2.line(frame, (xMedio,yMedio-1), (xMedio,yMedio+1), (0, 255, 0), 2)
+		ptoMedio = str(xMedio)+","+str(yMedio)+" \n"
+		coordenadas.write(ptoMedio)
+		#Fin Punto MEDIO
+
 		y = top - 15 if top - 15 > 15 else top + 15
 		cv2.putText(frame, name, (left, y), cv2.FONT_HERSHEY_SIMPLEX,
 			0.75, (0, 255, 0), 2)
@@ -126,6 +143,7 @@ while True:
 
 # close the video file pointers
 stream.release()
+coordenadas.close()
 
 # check to see if the video writer point needs to be released
 if writer is not None:

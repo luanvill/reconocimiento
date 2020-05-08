@@ -1,0 +1,72 @@
+Cantidad de rostros detectados en este frame: 1
+300,216 
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 1
+234,235 
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 1
+158,235 
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 1
+102,217 
+Cantidad de rostros detectados en este frame: 1
+102,217 
+Cantidad de rostros detectados en este frame: 1
+102,217 
+Cantidad de rostros detectados en este frame: 1
+102,217 
+Cantidad de rostros detectados en este frame: 1
+98,209 
+Cantidad de rostros detectados en este frame: 1
+98,209 
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 1
+118,217 
+Cantidad de rostros detectados en este frame: 1
+110,209 
+Cantidad de rostros detectados en este frame: 1
+132,209 
+Cantidad de rostros detectados en este frame: 1
+158,209 
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 1
+284,209 
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 0
+Cantidad de rostros detectados en este frame: 1
+487,183 
+Cantidad de rostros detectados en este frame: 1
+487,183 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+490,195 
+Cantidad de rostros detectados en este frame: 1
+469,195 
+Cantidad de rostros detectados en este frame: 1
+469,195 
+Cantidad de rostros detectados en este frame: 1
+462,183 
+Cantidad de rostros detectados en este frame: 1
+448,195 
+Cantidad de rostros detectados en este frame: 1
+427,195 
+Cantidad de rostros detectados en este frame: 1
+411,183 

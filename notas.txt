@@ -39,3 +39,16 @@ Chekear grado de inclinacion
 
 hog modo dificil
 mascarilla probar Cnn prioridad, hog a ver que tal.
+
+17/04
+Stream local
+Chequear horarios de turnos
+Guardar en txt punto medio. (Numero de personas, mascarillas)
+
+js buy sdk
+snipcart
+checkout.js
+
+
+24/4
+Documento: Manual de usuario
